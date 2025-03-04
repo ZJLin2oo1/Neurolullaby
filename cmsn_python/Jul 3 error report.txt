@@ -1,0 +1,21 @@
+CrimsonSDK version:1.4.6
+crimson_sdk.py:start_device_scan:scanning ...
+2024-07-03 21:50:10.262 python[67999:9219955] BLE manager state:poweron
+Found device:BY11-138AD
+Stop scanning for more devices
+crimson_sdk.py:stop_device_scan:stop
+CMSNDevice:connecting...
+2024-07-03 21:50:13.256 python[67999:9219953] CrimsonDevice[BY11-138AD] onConnectivityChange: Device connected
+2024-07-03 21:50:13.708 python[67999:9219953] CrimsonDevice[BY11-138AD] didDiscoverServices:0D740001-D26F-4DBB-95E8-A4F5C55C57A9
+2024-07-03 21:50:13.708 python[67999:9219953] CrimsonDevice[BY11-138AD] didDiscoverServices:180F
+2024-07-03 21:50:13.708 python[67999:9219953] CrimsonDevice[BY11-138AD] didDiscoverServices:180A
+2024-07-03 21:50:13.708 python[67999:9219953] CrimsonDevice[BY11-138AD] didDiscoverServices:FE59
+2024-07-03 21:50:13.765 python[67999:9219953] CrimsonDevice[BY11-138AD] CBPeripheral:didDiscoverCharacteristicsForService:DATA_STREAM_WRITE_CHAR
+2024-07-03 21:50:13.765 python[67999:9219953] CrimsonDevice[BY11-138AD] CBPeripheral:didDiscoverCharacteristicsForService:DATA_STREAM_NOTIFY_CHAR
+2024-07-03 21:50:14.125 python[67999:9219953] CrimsonDevice[BY11-138AD] Data write char notify value updated ready to send data
+Connectivity: connected
+2024-07-03 21:50:14.485 python[67999:9219953] CrimsonDevice[BY11-138AD] Device info is ready, manufacturerName=BrainCo
+2024-07-03 21:50:14.546 python[67999:9219953] CrimsonDevice[BY11-138AD] CBPeripheral:didWriteValueForCharacteristic:0D740002-D26F-4DBB-95E8-A4F5C55C57A9
+21:50:14 [INFO][CrimsonSDK:cmsn_message_handler.c:439]>handle_sys_config_response:SYS config failed
+21:50:14 [INFO][CrimsonSDK:cmsn_message_handler.c:460]>handle_sys_config_response:SYS config error:3
+Paring result: False

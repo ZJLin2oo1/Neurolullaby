@@ -1,0 +1,6 @@
+certifi
+chardet
+idna
+kivymd===1.2.0
+requests
+urllib3

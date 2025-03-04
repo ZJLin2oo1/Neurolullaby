@@ -1,0 +1,10 @@
+prefix=/Users/sariha/Desktop/Test_Kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg/install
+exec_prefix=/Users/sariha/Desktop/Test_Kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg/install
+libdir=/Users/sariha/Desktop/Test_Kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg/install/lib
+includedir=/Users/sariha/Desktop/Test_Kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg/install/include
+
+Name: libturbojpeg
+Description: A SIMD-accelerated JPEG codec that provides the TurboJPEG API
+Version: 2.0.1
+Libs: -L${libdir} -lturbojpeg
+Cflags: -I${includedir}

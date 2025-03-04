@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test-kivy"
+version = "0.1.0"
+description = ""
+authors = ["Sariha Ganapathy <gsariha17@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+kivymd = "^1.2.0"
+kivy = "^2.3.0"
+perl = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
