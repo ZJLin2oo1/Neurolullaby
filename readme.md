@@ -1,6 +1,6 @@
 # NeuroLullaby: Adaptive Bedtime Storytelling Using EEG-based Brain-Computer Interface for Sleep Health
 
-![NeuroLullaby](resources/Front_Page_bg.png)
+<img src="resources/Front_Page_bg.png" width="300px">
 
 Welcome to the **NeuroLullaby** project! This research explores how **EEG-based Brain-Computer Interfaces (BCI)** can be used for adaptive **Speech Generation**. It was developed as part of the course project for **NUS CS5647: Sound and Music Computing**.
 
@@ -23,5 +23,7 @@ We sincerely appreciate the **device support** provided by the **Access Computin
 
 📩 **Stay Connected**
 For questions or collaborations, feel free to reach out via GitHub issues!
+
+
 
 
